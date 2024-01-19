@@ -1,13 +1,12 @@
 import React from 'react';
+
 import './App.css';
-import ScoreKeeper from './pages/ScoreKeeper';
-import Mytest from './pages/Mytest';
+import AppRouter from './router/router';
 
 function App() {
   return (
     <div className="App">
-     <ScoreKeeper />
-     {/* <Mytest /> */}
+     <AppRouter/>
     </div>
   );
 }
