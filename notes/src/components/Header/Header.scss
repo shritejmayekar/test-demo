@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background: #ffc0cb;
+    width: 100%;
+    align-items: center;
+
+    .left-div {
+        width: 60%;
+        display: flex;
+
+        .logo {
+            display: flex;
+            margin-left: 2em;
+            width: 200px;
+            height: 30px;
+            background-color: aqua;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 50% 0 50%;
+            justify-content: center;
+            align-items: center;
+
+            .link {
+                text-decoration-line: none;
+                color: black;
+            }
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+            font-size: 26px;
+        }
+    }
+
+    .links {
+        display: flex;
+        width: 40%;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+
+            li {
+                display: flex;
+                cursor: pointer;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+
+                .link {
+                    text-decoration-line: none;
+                    color: black;
+
+                }
+            }
+        }
+    }
+}
